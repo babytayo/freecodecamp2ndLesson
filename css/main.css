@@ -55,8 +55,10 @@ h2 {
   font-family: Impact, serif;
 }
 
-.item p {
-  display: inline-block;
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
